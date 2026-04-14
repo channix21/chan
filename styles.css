@@ -1,0 +1,485 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+}
+
+h2 {
+    color: white;
+    font-size: 70px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+}
+
+/* NAVIGATION BAR */
+
+.fa-brands {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.nav {
+    background-color: #0f0d0f;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+
+.nav i {
+    padding-right: 100;
+    padding: 17px 10px;
+    color: white;
+}
+
+.nav-right {
+    float: right;
+    font-size: 20px;
+}
+
+
+
+#logo {
+    width: 300px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+    padding-left: 10px;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #121212;
+    background-image: none,
+        url("Images/Background for hero section page 1.png");
+    padding-top: 380px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 500px;
+}
+
+.hero-inner {
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+}
+
+.btn_red:hover {
+    background-color: #c42828;
+}
+
+
+.section_title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* ABOUT US */
+
+
+.about-container {
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-text {
+    font-size: 50px;
+    flex: 1;
+    padding: 50px;
+    line-height: 30px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* OUR PRODUCT */
+
+.products-section h2 {
+    text-align: center;
+}
+
+.products-section {
+    background-color: #000000;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #1a1a1a;
+}
+
+.box_title {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.box_img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.spec {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 30%;
+}
+
+.red_dot {
+    color: #a81d1d;
+    font-weight: bold;
+}
+
+.btn_red_small {
+    font-size: 14px;
+    background-color: #a81d1d;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+.btn_red_small:hover {
+    background-color: #c42828;
+}
+
+
+/* CONTACT US */
+
+.contact_section {
+    background-image: linear-gradient(135deg, rgba(168, 29, 29, 0.1) 0%, transparent 50%),
+        url("Images/Contact Us background 50_ opacity.png");
+
+    background-position: center center;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+
+.form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    width: 100%;
+    max-width: 480px;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 120px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.btn_red {
+    font-size: 14px;
+    background-color: #a81d1d;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+
+/* WHAT OUR CLIENT SAY */
+
+
+.client_section {
+    background-color: #1a1a1a;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.client_p {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+/* FOOTER SECTION */
+
+
+.footer-section {
+    background-color: #1a181d;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer-icon {
+    font-size: 30px;
+}
+
+/* COPYRIGHT SECTION */
+
+.copyright-section {
+    border-top: 1px solid white;
+}
+
+.copyright-section p {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+/* TABLET AND LAPTOP RESPONSIVE (768px - 1024px) */
+
+@media (max-width: 1024px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    /* Navbar adjustments */
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-right {
+        float: none;
+        font-size: 19px;
+
+    }
+
+    /* Hero adjustments */
+    .hero {
+        padding: 100px;
+        height: auto;
+        background-position: center;
+        text-align: center;
+    }
+
+    .hero-inner {
+        position: static;
+
+    }
+
+
+    /* About Us */
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .about-text {
+        font-size: 35px;
+        padding: 20px 0;
+    }
+
+    /* Products */
+    .products-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 80%;
+        max-width: 500px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .spec {
+        margin-left: 20%;
+        padding-bottom: 10px;
+
+    }
+
+    .btn_red_small {
+        margin-top: 10px;
+
+    }
+
+    /* Client Section */
+    .client_p {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+}
+
+/* MOBILE RESPONSIVE SMALL PHONE, MEDIUM PHONE, LARGE PHONE (320px, 375px, 425px) */
+
+@media (max-width: 425px) {
+
+    h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    /* NAVBAR */
+    #logo {
+        width: 100%;
+        max-width: 220px;
+        padding-left: 0;
+
+    }
+
+    .nav {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .nav-right {
+        font-size: 14px;
+    }
+
+    .contact-info {
+        display: block;
+        margin-bottom: -7px;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+        margin: 0 8px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        padding-top: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+
+    /* ABOUT US */
+    .about-text {
+        font-size: 22px;
+        line-height: 1.4;
+        padding: 15px 0;
+    }
+
+    /* PRODUCTS */
+    .box {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .box_title {
+        font-size: 20px;
+    }
+
+    .spec {
+        font-size: 14px;
+    }
+
+    .btn_red_small {
+        margin-left: 112px;
+
+    }
+
+    /* CONTACT US */
+    .contact_section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .input,
+    .textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* CLIENT SECTION */
+    .client_p {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .btn_red_small {
+        margin-left: 92px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .spec {
+        margin-left: 22px;
+    }
+
+    .btn_red_small {
+        margin-left: 65px;
+    }
+
+}
